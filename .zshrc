@@ -27,6 +27,7 @@ alias ..='cd ..'
 alias l='ls -fl'
 alias home='cd ~'
 alias e='exit'
+alias r='ranger'
 
 # python specific
 alias run='fuser -k 5000/tcp; python run.py'
@@ -44,6 +45,7 @@ alias jp='nohup jupyter notebook &'
 alias pg='sudo -u postgres -i'
 alias tmux='tmux -2 -f ~/.config/tmux/.tmux.conf'
 alias n='nvim'
+alias vim='nvim'
 alias g='lazygit'
 
 # configs
