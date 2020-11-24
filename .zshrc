@@ -43,7 +43,6 @@ alias killkill='fuser -k 8050/tcp; fuser -k 8000/tcp; fuser -k 5000/tcp'
 # run programs
 alias jp='nohup jupyter notebook &'
 alias pg='sudo -u postgres -i'
-alias tmux='tmux -2 -f ~/.config/tmux/.tmux.conf'
 alias n='nvim'
 alias vim='nvim'
 alias g='lazygit'
@@ -52,7 +51,6 @@ alias g='lazygit'
 alias zshconf='nvim ~/.zshrc'
 alias zshupdate='. ~/.zshrc'
 alias vimconf='nvim ~/.config/nvim/init.vim'
-alias tmuxconf='nvim ~/.config/tmux/.tmux.conf'
 
 # run
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
