@@ -5,9 +5,6 @@ DISABLE_AUTO_UPDATE="true"
 DISABLE_UPDATE_PROMPT="true"
 ENABLE_CORRECTION="true"
 
-# plugins
-plugins=(git)
-
 # default editor
 export EDITOR='nvim'
 
@@ -42,7 +39,6 @@ alias killkill='fuser -k 8050/tcp; fuser -k 8000/tcp; fuser -k 5000/tcp'
 
 # run programs
 alias jp='nohup jupyter notebook &'
-alias pg='sudo -u postgres -i'
 alias n='nvim'
 alias vim='nvim'
 alias g='lazygit'
