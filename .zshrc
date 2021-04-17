@@ -49,3 +49,9 @@ alias vimconf='nvim ~/.config/nvim/init.vim'
 
 # run neofetch at start
 neofetch
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/home/ukasz/google-cloud-sdk/path.zsh.inc' ]; then . '/home/ukasz/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/home/ukasz/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/ukasz/google-cloud-sdk/completion.zsh.inc'; fi
