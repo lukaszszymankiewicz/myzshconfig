@@ -10,21 +10,16 @@ export EDITOR='nvim'
 
 # projects
 alias backdoor='cd ~/wavemaker/backdoor; source venv/bin/activate'
-alias kradziej='cd ~/projects/kradziej; source venv/bin/activate; nvim;'
 alias mpo='cd ~/wavemaker/wm_mpo_service; source venv/bin/activate'
-alias pydoku='cd ~/projects/pydoku; source venv/bin/activate'
 alias turbo='cd ~/wavemaker/wm_turbo; source venv/bin/activate'
-alias zoo='cd ~/wavemaker/wm_zoo; source venv/bin/activate; nvim'
-alias hindus='cd ~/projects/indian-food-app; source venv/bin/activate'
+alias zoo='cd ~/wavemaker/wm_zoo; source venv/bin/activate'
 alias meme='cd ~/projects/memecatcher; source venv/bin/activate'
 
 # navigation
 alias c='clear'
-alias ..='cd ..'
 alias l='ls -fl'
 alias home='cd ~'
 alias e='exit'
-alias r='ranger'
 
 # python specific
 alias run='fuser -k 5000/tcp; python run.py'
@@ -39,9 +34,10 @@ alias killkill='fuser -k 8050/tcp; fuser -k 8000/tcp; fuser -k 5000/tcp'
 
 # run programs
 alias jp='nohup jupyter notebook &'
+alias r='ranger'
 alias n='nvim'
-alias vim='nvim'
 alias g='lazygit'
+alias space='sudo mount /dev/sda2 /media/ukasz/'
 
 # configs
 alias zshconf='nvim ~/.zshrc'
