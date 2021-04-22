@@ -14,6 +14,7 @@ alias mpo='cd ~/wavemaker/wm_mpo_service; source venv/bin/activate'
 alias turbo='cd ~/wavemaker/wm_turbo; source venv/bin/activate'
 alias zoo='cd ~/wavemaker/wm_zoo; source venv/bin/activate'
 alias meme='cd ~/projects/memecatcher; source venv/bin/activate'
+alias book='cd ~/projects/bookseller; source venv/bin/activate'
 
 # navigation
 alias c='clear'
